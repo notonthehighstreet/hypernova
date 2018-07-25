@@ -18,7 +18,7 @@
     "postcoverage": "npm run cover:check",
     "cover:check": "istanbul check-coverage && echo code coverage thresholds met, achievement unlocked!",
     "test:quick": "babel-node node_modules/.bin/_mocha -R tap test/init.js test/*-test.js",
-    "install": "npm install . && npm run build"
+    "install": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
